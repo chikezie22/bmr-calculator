@@ -1,7 +1,10 @@
-# 
+# BASAL METABOLIC RATE CALCULATOR
+
 
 ![GitHub followers](https://img.shields.io/github/followers/chikezie22)  ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/chikezie_simon?style=flat&logo=x&logoColor=%23000000&logoSize=auto)
 
+## Prototype
+![WhatsApp Image 2024-07-03 at 12 10 57](https://github.com/chikezie22/bmr-calculator/assets/71356137/05404cae-e97d-49ba-b536-fb77818c4893)
 
 
 
