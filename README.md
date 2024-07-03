@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub followers](https://img.shields.io/github/followers/chikezie22)  ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/chikezie_simon?style=flat&logo=x&logoColor=%23000000&logoSize=auto)
+
+
+
 
 ## Available Scripts
 
