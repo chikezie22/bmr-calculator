@@ -1,4 +1,9 @@
-# BASAL METABOLIC RATE CALCULATOR
+![BMR_CALULATOR (1)](https://github.com/chikezie22/bmr-calculator/assets/71356137/6b0e3e40-2edb-4246-af18-da8a9f6e7883)
+
+
+# BASAL METABOLIC RATE (BMR) CALCULATOR
+
+The Basal Metabolic Rate (BMR) Calculator is a simple React application that estimates the minimum amount of energy (calories) your body needs to keep functioning while at rest. The BMR is essential for understanding how many calories your body requires to maintain basic physiological functions such as keeping your heart beating and brain working, even when you are inactive.
 
 
 ![GitHub followers](https://img.shields.io/github/followers/chikezie22)  ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/chikezie_simon?style=flat&logo=x&logoColor=%23000000&logoSize=auto)
@@ -7,11 +12,6 @@
 ![WhatsApp Image 2024-07-03 at 12 10 57](https://github.com/chikezie22/bmr-calculator/assets/71356137/05404cae-e97d-49ba-b536-fb77818c4893)
 
 
-
-
-# Basal Metabolic Rate (BMR) Calculator
-
-The Basal Metabolic Rate (BMR) Calculator is a simple React application that estimates the minimum amount of energy (calories) your body needs to keep functioning while at rest. The BMR is essential for understanding how many calories your body requires to maintain basic physiological functions such as keeping your heart beating and brain working, even when you are inactive.
 
 ## Table of Contents
 - [Introduction](#introduction)
