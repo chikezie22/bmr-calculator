@@ -1,4 +1,4 @@
-export default function Result() {
+export default function Result({ bmr }) {
   return (
     <div
       style={{
@@ -10,7 +10,7 @@ export default function Result() {
         alignItems: "center",
       }}
     >
-      <h2>BMR = 1707 Calories / day</h2>
+      <h2>BMR = {bmr} Calories / day</h2>
       <h5>Try dey chop make you no die !!!</h5>
     </div>
   );
