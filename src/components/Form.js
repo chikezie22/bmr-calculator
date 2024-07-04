@@ -2,31 +2,50 @@ export default function Form() {
   return (
     <>
       <form action="">
-        <label>Age</label>
-        <input type="text" min="15" max="90" />
-        <p>ages 15 - 90</p>
+        <div className="form-group">
+          <label>
+            Age
+            <input type="text" min="15" max="90" placeholder="ages 15 - 90" />
+          </label>
 
-        <fieldset style={{ display: "block" }}>
-          <legend>Gender</legend>
+          <p>ages 15 - 90</p>
+        </div>
 
-          <div>
+        <p>Gender</p>
+
+        <div className="form-group">
+          <label htmlFor="male">
             <input type="radio" name="gender" value="male" />
-            <label htmlFor="male">Male</label>
-          </div>
+            Male
+          </label>
+        </div>
 
-          <div>
+        <div className="form-group">
+          <label htmlFor="female">
             <input type="radio" name="gender" value="female" />
-            <label htmlFor="female">Female</label>
-          </div>
-        </fieldset>
+            Female
+          </label>
+        </div>
 
-        <label>Height</label>
-        <input type="text" />
-        <p>height in feet's</p>
+        <div className="form-group">
+          <label>
+            Height
+            <input type="text" placeholder="height in feet's" />
+          </label>
 
-        <label>Weight</label>
-        <input type="text" />
-        <p>weight in tons</p>
+          <p>height in feet's</p>
+        </div>
+
+        <div className="form-group">
+          <label>
+            Weight
+            <input type="text" placeholder="weight in tons" />
+          </label>
+
+          <p>weight in tons</p>
+        </div>
+
+        <button>Calculate your BMR Now!!!</button>
       </form>
     </>
   );
