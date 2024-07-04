@@ -16,6 +16,7 @@ The Basal Metabolic Rate (BMR) Calculator is a simple React application that est
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Live-Demo](#live-demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Equation Used](#equation-used)
@@ -38,6 +39,10 @@ Where:
 - User-friendly interface for inputting personal data (weight, height, age, and gender).
 - Calculates and displays the Basal Metabolic Rate (BMR).
 - Provides an engaging welcome message to guide users.
+
+## Live-Demo
+- Here is a live demo
+https://bmr-calculator-gules.vercel.app/
 
 ## Installation
 
@@ -68,6 +73,7 @@ To get started with the BMR Calculator, follow these steps:
 3. Select your gender.
 4. Click on the "Calculate Your BMR Now!" button.
 5. The application will display your BMR, which is the minimum number of calories your body needs to function at rest.
+
 
 ## Equation Used
 
