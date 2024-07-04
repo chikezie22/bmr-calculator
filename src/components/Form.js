@@ -45,10 +45,13 @@ export default function Form({ onSetView, onSetBmr }) {
             Age
             <input
               type="text"
+              pattern="\d*"
               min="15"
               max="90"
               value={age}
-              onChange={(e) => setAge(+e.target.value)}
+              onChange={(e) =>
+                setAge(e.target.validity.valid ? +e.target.value : age)
+              }
               placeholder="ages 15 - 90"
             />
           </label>
@@ -89,9 +92,12 @@ export default function Form({ onSetView, onSetBmr }) {
             Height
             <input
               type="text"
+              pattern="\d*"
               placeholder="height in feet's"
               value={height}
-              onChange={(e) => setHeight(+e.target.value)}
+              onChange={(e) =>
+                setHeight(e.target.validity.valid ? +e.target.value : height)
+              }
             />
           </label>
 
@@ -103,9 +109,12 @@ export default function Form({ onSetView, onSetBmr }) {
             Weight
             <input
               type="text"
+              pattern="\d*"
               placeholder="weight in tons"
               value={weight}
-              onChange={(e) => setWeight(+e.target.value)}
+              onChange={(e) =>
+                setWeight(e.target.validity.valid ? +e.target.value : weight)
+              }
             />
           </label>
 
