@@ -121,8 +121,17 @@ export default function Form({ onSetView, onSetBmr }) {
           <p>weight in tons</p>
         </div>
 
-        <button>{isCalculated ? "clear" : "Calculate your BMR Now!!!"}</button>
+        {/* <button>{isCalculated ? "clear" : "Calculate your BMR Now!!!"}</button> */}
+        <Button>{isCalculated ? "clear" : "Calculate your BMR Now!!!"}</Button>
       </form>
+    </>
+  );
+}
+
+function Button({ children }) {
+  return (
+    <>
+      <button>{children}</button>
     </>
   );
 }
